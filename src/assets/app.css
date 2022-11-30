@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Sofia Sans';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1666183785/shop-mugs/font/SofiaSans-Medium_ng2agh.ttf');
+}
+
+@font-face {
+    font-family: 'Sofia Black';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1666770005/shop-mugs/font/SofiaSans-Black_raq3yw.ttf');
+}
+
+@font-face {
+    font-family: 'Comic Sans Blod';
+    src: url('https://res.cloudinary.com/dz9smi3nc/raw/upload/v1666791369/shop-mugs/font/ComicSansMSBold_qkypqe.ttf');
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #0000004d;
+    background-color: #2d2c2cc6
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px #00000098;
+    background: #7c7063cc;
+    background: #2e2922cc;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Esto es para manejar REM en base 10*/
+    /* 1REM = 10px */
+}
+
+body {
+    backface-visibility: hidden;
+    overflow-x: hidden;
+    transform: translateZ(0);
+    -webkit-font-smoothing: subpixel-antialiased;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 1.6rem;
+    line-height: 2;
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    color: #9c8d79;
+    background-color: #1f1724;
+    background-color: #0f0f0f;
+
+}
+
+.app-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* filter: blur(2px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60rem;
+    color: #9c8d79;
+}
+
+video {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: saturate(2%);
+}
+
+.app {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* height: 100%; */
+    /* background-color: #332d41; */
+}
+
+.app-wrap {
+    z-index: 22;
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    width: 100%;
+    height: 4rem;
+    background-color: #070707a3;
+}
+
+nav .header_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+nav .header_box .img-wrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav .header_box img {
+    display: block;
+    height: 100%;
+}
+
+nav .header_box:nth-child(3) img {
+    display: block;
+    height: 85%;
+}
+
+nav .header_box p {
+    text-shadow: 0px 0px 3px #d0bda9;
+    font-size: 2.4rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90rem;
+}
+
+
+main .main-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+    /* background-color: #4a4f64; */
+    text-align: center;
+}
+
+main .galery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
+    /* width: 126rem; */
+    padding: 2rem 0;
+    /* height: 34rem; */
+    /* background-color: #6262d4a5; */
+}
+
+main .galery .card-container {
+    padding: 1.5rem 1rem;
+    background-color: #1f1f20a5;
+}
+
+main .galery .card {
+    width: 24rem;
+    height: 30rem;
+    background-color: #3b2f44a5;
+    background-image: url("https://res.cloudinary.com/dz9smi3nc/image/upload/w_700/v1669772977/Challenger-IngerTec/items/1209131_rmrcov.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main .info-text {
+    width: 100%;
+    /* background-color: #4a4f64; */
+}
+
+
+.footer-contianer {
+    width: 100%;
+    height: 4rem;
+    background-color: #575d79;
+}
