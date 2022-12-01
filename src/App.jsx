@@ -8,7 +8,6 @@ function App() {
       <video src={background} autoPlay loop muted />
       <div className="app">
         <div className="app-wrap">
-      <a href="https://id.twitch.tv/oauth2/authorize?client_id=jmm5tsna2qnd5gfyzxebgq3hxby8bh&redirect_uri=https://127.0.0.1:5173&response_type=token">Connect with Twitch</a>
           <nav>
             <div className="header_box">
               <div className="img-wrap">
@@ -31,10 +30,42 @@ function App() {
             </div>
           </nav>
           <main>
-            <div className="main-box">
-              <section className="galery">
+            <section className="main-box">
+              <div className="galery">
                 <div className="card-container">
-                  <div className="card"></div>
+                  <div className="card">
+                    <div className="info">
+                      <div className="info-box">
+                        <p>GOD OF WARD RANKROK</p>
+                        <div className="img-wrap">
+                          <img
+                            src="https://res.cloudinary.com/dz9smi3nc/image/upload/v1669868102/Challenger-IngerTec/icons/arrow_qadku1.png"
+                            alt="arrow"
+                          />
+                        </div>
+                      </div>
+                      <div className="info-box">
+                        <p>
+                          <strong>GENRE</strong> : Adventure, Indie, Simulation
+                        </p>
+                        <p>
+                          <strong>DEVELOPER</strong>: Redbeet Interactive
+                        </p>
+                        <p>PUBLISHER : Axolot GamesALL</p>
+                        <p>REVIEWS : Very Positive (203,393)</p>
+                        <p>RELEASE DATE : 20 Jun, 2022</p>
+                      </div>
+                      <div className="info-box">
+                        <strong>100</strong>
+                        <div className="img-wrap">
+                          <img
+                            src="https://res.cloudinary.com/dz9smi3nc/image/upload/v1669871073/Challenger-IngerTec/icons/eyes_ivhrcd.png"
+                            alt="eye"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div className="card-container">
                   <div className="card"></div>
@@ -48,15 +79,34 @@ function App() {
                 <div className="card-container">
                   <div className="card"></div>
                 </div>
-                
-              </section>
-            </div>
-            <div className="main-box">
-              <section className="info-text">MAIN</section>
-            </div>
+              </div>
+            </section>
+            <section className="main-box">
+              <div className="info-text">
+                <button className="switch-info">
+                  <div className="img-wrap">
+                    <img
+                      src="https://res.cloudinary.com/dz9smi3nc/image/upload/v1669864672/Challenger-IngerTec/icons/dialogue_cvkwmi.png"
+                      alt="switch dialogue"
+                    />
+                  </div>
+                </button>
+                <p>
+                  The British Academy Games Awards are an annual British awards
+                  ceremony honoring "outstanding creative achievement" in the
+                  video game industry. First presented in 2004 following the
+                  restructuring of the BAFTA Interactive Entertainment Awards,
+                  the awards are presented by the British Academy of Film and
+                  Television Arts (BAFTA), and are thus commonly referred to as
+                  the BAFTA Games .
+                </p>
+              </div>
+            </section>
           </main>
 
-          <footer className="footer-contianer">FOOTER</footer>
+          <footer>
+            <p>2022 IngerTec, ARG © All Rigths Reserved.</p>
+          </footer>
         </div>
       </div>
       {/* <ReactPlayer
