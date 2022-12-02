@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669772977/Challenger-IngerTec/items/1209131_rmrcov.jpg",
+    "title": "GOD OF WARD RANKROK",
+    "genre": "Adventure, Action",
+    "developer": "Santa Monica Studion",
+    "publisher": "Axolot Game All",
+    "reviews": "Very Positive (203,393)",
+    "release_data": "20 Jun, 2022"
+  },
+  {
+    "id": 2,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892271/Challenger-IngerTec/items/wallpaperflare.com_wallpaper_2_juawuf.jpg",
+    "title": "Elden Ring",
+    "genre": "Action, RPG",
+    "developer": "FromSoftware Inc.",
+    "publisher": "Christopher Judge",
+    "reviews": "Very Positive (163,321)",
+    "release_data": "24 Nov, 2022"
+  },
+  {
+    "id": 3,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892741/Challenger-IngerTec/items/cropped-1920-1080-1209589_y9mpbd.jpg",
+    "title": "Horizon Forbidden",
+    "genre": "Action, Adventure",
+    "developer": "Guerrilla Games",
+    "publisher": "Sony Entret Corporation",
+    "reviews": "Very Positive (103,002)",
+    "release_data": "18 Feb, 2022"
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892598/Challenger-IngerTec/items/1243550_scbzav.jpg",
+    "title": "Stray",
+    "genre": "Adventure, Indie",
+    "developer": "BlueTwelve Studio",
+    "publisher": "Annapurna Interactive",
+    "reviews": "Very Positive (92,124)",
+    "release_data": "19 Jul, 2022"
+  },
+  {
+    "id": 5,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892443/Challenger-IngerTec/items/1655970444_514755_1655970592_noticia_normal_vk2mdj.jpg",
+    "title": "Plague Tale: Requiem ",
+    "genre": "Action, Adventure",
+    "developer": "Asobo Studio",
+    "publisher": "Focus Entertainment",
+    "reviews": "Very Positive (4,225)",
+    "release_data": "17 Oct, 2022"
+  },
+  {
+    "id": 6,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669772977/Challenger-IngerTec/items/1209131_rmrcov.jpg",
+    "title": "GOD OF WARD RANKROK",
+    "genre": "Adventure, Action",
+    "developer": "Santa Monica Studion",
+    "publisher": "Axolot Game All",
+    "reviews": "Very Positive (203,393)",
+    "release_data": "20 Jun, 2022"
+  },
+  {
+    "id":7,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892271/Challenger-IngerTec/items/wallpaperflare.com_wallpaper_2_juawuf.jpg",
+    "title": "Elden Ring",
+    "genre": "Action, RPG",
+    "developer": "FromSoftware Inc.",
+    "publisher": "Christopher Judge",
+    "reviews": "Very Positive (163,321)",
+    "release_data": "24 Nov, 2022"
+  },
+  {
+    "id": 8,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892741/Challenger-IngerTec/items/cropped-1920-1080-1209589_y9mpbd.jpg",
+    "title": "Horizon Forbidden",
+    "genre": "Action, Adventure",
+    "developer": "Guerrilla Games",
+    "publisher": "Sony Entret Corporation",
+    "reviews": "Very Positive (103,002)",
+    "release_data": "18 Feb, 2022"
+  },
+  {
+    "id": 9,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892598/Challenger-IngerTec/items/1243550_scbzav.jpg",
+    "title": "Stray",
+    "genre": "Adventure, Indie",
+    "developer": "BlueTwelve Studio",
+    "publisher": "Annapurna Interactive",
+    "reviews": "Very Positive (92,124)",
+    "release_data": "19 Jul, 2022"
+  },
+  {
+    "id": 10,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892443/Challenger-IngerTec/items/1655970444_514755_1655970592_noticia_normal_vk2mdj.jpg",
+    "title": "Plague Tale: Requiem ",
+    "genre": "Action, Adventure",
+    "developer": "Asobo Studio",
+    "publisher": "Focus Entertainment",
+    "reviews": "Very Positive (4,225)",
+    "release_data": "17 Oct, 2022"
+  },
+  {
+    "id": 11,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669772977/Challenger-IngerTec/items/1209131_rmrcov.jpg",
+    "title": "GOD OF WARD RANKROK",
+    "genre": "Adventure, Action",
+    "developer": "Santa Monica Studion",
+    "publisher": "Axolot Game All",
+    "reviews": "Very Positive (203,393)",
+    "release_data": "20 Jun, 2022"
+  },
+  {
+    "id":12,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892271/Challenger-IngerTec/items/wallpaperflare.com_wallpaper_2_juawuf.jpg",
+    "title": "Elden Ring",
+    "genre": "Action, RPG",
+    "developer": "FromSoftware Inc.",
+    "publisher": "Christopher Judge",
+    "reviews": "Very Positive (163,321)",
+    "release_data": "24 Nov, 2022"
+  },
+  {
+    "id": 13,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892741/Challenger-IngerTec/items/cropped-1920-1080-1209589_y9mpbd.jpg",
+    "title": "Horizon Forbidden",
+    "genre": "Action, Adventure",
+    "developer": "Guerrilla Games",
+    "publisher": "Sony Entret Corporation",
+    "reviews": "Very Positive (103,002)",
+    "release_data": "18 Feb, 2022"
+  },
+  {
+    "id": 14,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892598/Challenger-IngerTec/items/1243550_scbzav.jpg",
+    "title": "Stray",
+    "genre": "Adventure, Indie",
+    "developer": "BlueTwelve Studio",
+    "publisher": "Annapurna Interactive",
+    "reviews": "Very Positive (92,124)",
+    "release_data": "19 Jul, 2022"
+  },
+  {
+    "id": 15,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892443/Challenger-IngerTec/items/1655970444_514755_1655970592_noticia_normal_vk2mdj.jpg",
+    "title": "Plague Tale: Requiem ",
+    "genre": "Action, Adventure",
+    "developer": "Asobo Studio",
+    "publisher": "Focus Entertainment",
+    "reviews": "Very Positive (4,225)",
+    "release_data": "17 Oct, 2022"
+  },
+  {
+    "id": 17,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669772977/Challenger-IngerTec/items/1209131_rmrcov.jpg",
+    "title": "GOD OF WARD RANKROK",
+    "genre": "Adventure, Action",
+    "developer": "Santa Monica Studion",
+    "publisher": "Axolot Game All",
+    "reviews": "Very Positive (203,393)",
+    "release_data": "20 Jun, 2022"
+  },
+  {
+    "id":18,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892271/Challenger-IngerTec/items/wallpaperflare.com_wallpaper_2_juawuf.jpg",
+    "title": "Elden Ring",
+    "genre": "Action, RPG",
+    "developer": "FromSoftware Inc.",
+    "publisher": "Christopher Judge",
+    "reviews": "Very Positive (163,321)",
+    "release_data": "24 Nov, 2022"
+  },
+  {
+    "id": 19,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892741/Challenger-IngerTec/items/cropped-1920-1080-1209589_y9mpbd.jpg",
+    "title": "Horizon Forbidden",
+    "genre": "Action, Adventure",
+    "developer": "Guerrilla Games",
+    "publisher": "Sony Entret Corporation",
+    "reviews": "Very Positive (103,002)",
+    "release_data": "18 Feb, 2022"
+  },
+  {
+    "id": 20,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892598/Challenger-IngerTec/items/1243550_scbzav.jpg",
+    "title": "Stray",
+    "genre": "Adventure, Indie",
+    "developer": "BlueTwelve Studio",
+    "publisher": "Annapurna Interactive",
+    "reviews": "Very Positive (92,124)",
+    "release_data": "19 Jul, 2022"
+  },
+  {
+    "id": 21,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892443/Challenger-IngerTec/items/1655970444_514755_1655970592_noticia_normal_vk2mdj.jpg",
+    "title": "Plague Tale: Requiem ",
+    "genre": "Action, Adventure",
+    "developer": "Asobo Studio",
+    "publisher": "Focus Entertainment",
+    "reviews": "Very Positive (4,225)",
+    "release_data": "17 Oct, 2022"
+  },
+  {
+    "id": 22,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669772977/Challenger-IngerTec/items/1209131_rmrcov.jpg",
+    "title": "GOD OF WARD RANKROK",
+    "genre": "Adventure, Action",
+    "developer": "Santa Monica Studion",
+    "publisher": "Axolot Game All",
+    "reviews": "Very Positive (203,393)",
+    "release_data": "20 Jun, 2022"
+  },
+  {
+    "id":23,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892271/Challenger-IngerTec/items/wallpaperflare.com_wallpaper_2_juawuf.jpg",
+    "title": "Elden Ring",
+    "genre": "Action, RPG",
+    "developer": "FromSoftware Inc.",
+    "publisher": "Christopher Judge",
+    "reviews": "Very Positive (163,321)",
+    "release_data": "24 Nov, 2022"
+  },
+  {
+    "id": 24,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892741/Challenger-IngerTec/items/cropped-1920-1080-1209589_y9mpbd.jpg",
+    "title": "Horizon Forbidden",
+    "genre": "Action, Adventure",
+    "developer": "Guerrilla Games",
+    "publisher": "Sony Entret Corporation",
+    "reviews": "Very Positive (103,002)",
+    "release_data": "18 Feb, 2022"
+  },
+  {
+    "id": 25,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892598/Challenger-IngerTec/items/1243550_scbzav.jpg",
+    "title": "Stray",
+    "genre": "Adventure, Indie",
+    "developer": "BlueTwelve Studio",
+    "publisher": "Annapurna Interactive",
+    "reviews": "Very Positive (92,124)",
+    "release_data": "19 Jul, 2022"
+  },
+  {
+    "id": 26,
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/w_800/v1669892443/Challenger-IngerTec/items/1655970444_514755_1655970592_noticia_normal_vk2mdj.jpg",
+    "title": "Plague Tale: Requiem ",
+    "genre": "Action, Adventure",
+    "developer": "Asobo Studio",
+    "publisher": "Focus Entertainment",
+    "reviews": "Very Positive (4,225)",
+    "release_data": "17 Oct, 2022"
+  }
+]

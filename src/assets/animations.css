@@ -1,0 +1,71 @@
+.anim-opacity {
+    animation-name: opacity;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    /* animation-iteration-count: infinite; */
+}
+@keyframes opacity {
+    0% {  
+       opacity: 0;
+    }
+    49%{
+        opacity: 0;
+    }
+    50% {
+        opacity: .3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.anim-opacity-reverse {
+    animation-name: opacity-reverse;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes opacity-reverse {
+    0% {  
+       opacity: 1;
+    }
+    19%{
+        opacity: 1;
+    }
+    20% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.anim-text-brightness{
+    animation-name: text-brightness;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text-brightness {
+    0% {  
+        color: #9c8d79;
+    }
+    5% {  
+        color: #b7a996;
+    }
+    15% {  
+        color: #9c8d79;
+    }
+    19%{
+        color: #aa967c;
+    }
+    80% {
+        color: #aa967c;
+    }
+    100% {
+        color: #9c8d79;
+    }
+}
