@@ -6,7 +6,7 @@ export const Header = () => {
     <div className="header_box">
       <div className="img-wrap">
         <img
-          src="https://res.cloudinary.com/dz9smi3nc/image/upload/v1669768523/Challenger-IngerTec/icons/logo_jpm8f6.png"
+          src="https://res.cloudinary.com/dz9smi3nc/image/upload/v1670066830/Challenger-IngerTec/icons/logo_d6onfc.png"
           alt="logo"
         />
       </div>

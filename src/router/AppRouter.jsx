@@ -12,8 +12,11 @@ export const AppRouter = () => {
       {/* <BrowserRouter basename="/dist"> */}
       <ModalDetails />
       <video src={background} autoPlay loop muted />
+      
       <div className="app">
+        
         <div className="app-wrap">
+          
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

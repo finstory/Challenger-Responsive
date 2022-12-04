@@ -41,9 +41,10 @@ export const CardDetails = () => {
               styleOpacityActive ? "anim-opacity" : "anim-opacity-reverse"
             }`}
           >
+            
             <div
               className="background-image"
-              style={{ display: `${renderImageOk ? "block" : "none"}` }}
+              style={{ display: `${renderImageOk ? "static" : "none"}` }}
             >
               <div className="title">
                 <div className="close" onClick={closeWithDelay}>

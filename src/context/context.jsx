@@ -1,6 +1,6 @@
 import { GlobalContext, useGlobal } from "./useGlobal";
 
-export const ContextProvider = ({ children }) => {
+export const PortalWindowContextProvider = ({ children }) => {
   const { global, setGlobal } = useGlobal();
   return (
     <GlobalContext.Provider value={{ global, setGlobal }}>

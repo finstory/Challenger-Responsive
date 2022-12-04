@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <footer>
-      <p>2022 IngerTec, ARG © All Rigths Reserved.</p>
+      <p>© All Rigths Reserved 2022 ARG IngerTec.</p>
     </footer>
   );
 };
