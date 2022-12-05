@@ -4,10 +4,11 @@ import { AppRouter } from "./AppRouter";
 
 export const AppMain = () => {
   return (
-    <BrowserRouter basename="/challenger">
+    // <BrowserRouter basename="/challenger">
+          <BrowserRouter>
       <Routes>
         <Route path="/*" element={<AppRouter />} />
-        <Route path="/challenger/popup_wallpaper/:id" element={<PoPupDetails />} />
+        <Route path="/popup_wallpaper/:id" element={<PoPupDetails />} />
       </Routes>
     </BrowserRouter>
   );
