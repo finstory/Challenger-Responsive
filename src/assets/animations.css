@@ -42,6 +42,33 @@
     }
 }
 
+
+.anim-cards {
+    animation-name: cards;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse; */
+    /* animation-iteration-count: infinite; */
+}
+@keyframes cards {
+    0% {  
+        transform: translateY(-10rem);
+       opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    50% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+        
+    }
+}
+
+
 .anim-text-brightness{
     animation-name: text-brightness;
     animation-duration: 5s;

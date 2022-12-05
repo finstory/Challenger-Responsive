@@ -1,10 +1,11 @@
-import { GlobalContext, useGlobal } from "./useGlobal";
+import { ReduxContext, useRedux } from "./useRedux";
+
 
 export const PortalWindowContextProvider = ({ children }) => {
-  const { global, setGlobal } = useGlobal();
+  const { redux, setRedux } = useRedux();
   return (
-    <GlobalContext.Provider value={{ global, setGlobal }}>
+    <ReduxContext.Provider value={{ redux, setRedux }}>
       {children}
-    </GlobalContext.Provider>
+    </ReduxContext.Provider>
   );
 };

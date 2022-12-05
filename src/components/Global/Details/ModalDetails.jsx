@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { useGlobalContext } from "../../../context/useGlobal";
+import { useReduxContext } from "../../../context/useRedux";
 import { CardDetails } from "./CardDetails";
 
 export const ModalDetails = () => {
   const {
-    global: { modalDetails },
-  } = useGlobalContext();
+    redux: { modalDetails },
+  } = useReduxContext();
 
   useEffect(() => {
     setTimeout(() => {

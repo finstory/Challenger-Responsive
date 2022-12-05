@@ -4,7 +4,7 @@ import { AppRouter } from "./AppRouter";
 
 export const AppMain = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/challenger">
       <Routes>
         <Route path="/*" element={<AppRouter />} />
         <Route path="/popup_wallpaper/:id" element={<PoPupDetails />} />

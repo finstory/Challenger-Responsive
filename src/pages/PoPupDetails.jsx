@@ -2,21 +2,18 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import itemsFromDB from "../database/items.json";
 import "../assets/popup.css";
-import { useGlobalContext } from "../context/useGlobal";
-import { sharingServices } from "../services/sharing.services";
+
 
 export const PoPupDetails = () => {
   const param = useParams();
   const location = useLocation();
   const idParam = parseInt(param.id) || 0;
-  const { global, setGlobal } = useGlobalContext();
 
   const [item, setItem] = useState({});
   const title = item.title ? item.title.toUpperCase() : "";
 
   useEffect(() => {
     setItem(itemsFromDB.find((item) => item.id === idParam));
-    
   }, []);
 
   const handleClick = () => {
@@ -27,8 +24,7 @@ export const PoPupDetails = () => {
 
   if (item)
     return (
-      <div
-      className="popup-container anim-opacity">
+      <div className="popup-container anim-opacity">
         {item && (
           <>
             <div className="title">{title}</div>

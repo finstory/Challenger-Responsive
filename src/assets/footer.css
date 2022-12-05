@@ -1,0 +1,30 @@
+/*$ End Box dialogue info */
+
+footer {
+    font-family: 'Sofia Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    background-color: #1f1f20a5;
+    background-color: #1b1b1bd8;
+    background: linear-gradient(90deg, #1b1b1bd8 0%, #181716d8 90%);
+    border: 1px solid #1313136a;
+
+}
+
+@media (max-width: 392px) {
+    footer {
+        height: 8rem;
+    }
+
+    footer p {
+        padding: 0 1rem;
+        margin: 0;
+    }
+}

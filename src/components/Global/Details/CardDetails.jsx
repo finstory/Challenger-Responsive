@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useGlobalContext } from "../../../context/useGlobal";
+import { useReduxContext } from "../../../context/useRedux";
 
 export const CardDetails = () => {
   const {
-    global: {
+    redux: {
       modalDetails: { item },
     },
-    setGlobal,
-  } = useGlobalContext();
+    setRedux,
+  } = useReduxContext();
 
   const imageRef = useRef(null);
   const [renderImageOk, setRenderImageOk] = useState(false);
@@ -17,7 +17,7 @@ export const CardDetails = () => {
   const closeWithDelay = () => {
     setStyleOpacityActive(false);
     setTimeout(() => {
-      setGlobal({ modalDetails: { active: false, item: {} } });
+      setRedux({ modalDetails: { active: false, item: {} } });
     }, 400);
   };
 
@@ -41,7 +41,6 @@ export const CardDetails = () => {
               styleOpacityActive ? "anim-opacity" : "anim-opacity-reverse"
             }`}
           >
-            
             <div
               className="background-image"
               style={{ display: `${renderImageOk ? "static" : "none"}` }}
