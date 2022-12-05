@@ -7,7 +7,7 @@ export const AppMain = () => {
     <BrowserRouter basename="/challenger">
       <Routes>
         <Route path="/*" element={<AppRouter />} />
-        <Route path="/popup_wallpaper/:id" element={<PoPupDetails />} />
+        <Route path="/challenger/popup_wallpaper/:id" element={<PoPupDetails />} />
       </Routes>
     </BrowserRouter>
   );
