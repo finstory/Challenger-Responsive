@@ -1,4 +1,4 @@
-# challenger
+# Challenger Responsive
 Instrucciones para probar: 
 
 clonar repositorio y dentro de el:
