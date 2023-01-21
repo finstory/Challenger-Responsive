@@ -5,7 +5,7 @@ clonar repositorio y dentro de el:
 <br>
 git clone https://github.com/finstory/challenger.git
 <br>
-yarn install
+1- "npm install --global yarn"
 <br>
 yarn dev
 <br>
